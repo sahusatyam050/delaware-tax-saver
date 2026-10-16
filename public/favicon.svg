@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <!-- Shield Outline -->
+  <path d="M32 4L10 12V28C10 44 19.5 54.5 32 60C44.5 54.5 54 44 54 28V12L32 4Z" fill="url(#shieldGrad)" />
+  <path d="M32 8L14 15V28C14 41.5 21.8 50.8 32 55.5C42.2 50.8 50 41.5 50 28V15L32 8Z" fill="url(#innerGrad)" />
+  <!-- Dollar Symbol -->
+  <path d="M32 18V44M26 23C26 20.8 28.7 19 32 19C35.3 19 38 20.8 38 23C38 26.5 26 26.5 26 31C26 34.5 28.7 36 32 36C35.3 36 38 34.2 38 32" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Checkmark Badge -->
+  <circle cx="46" cy="46" r="10" fill="#10B981" />
+  <path d="M42 46L45 49L50 43" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

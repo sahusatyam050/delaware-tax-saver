@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://delaware-tax-saver.vercel.app/sitemap.xml
